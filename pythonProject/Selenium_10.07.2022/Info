@@ -1,0 +1,58 @@
+Categories
+1. smoke
+2. Regression
+3. UAT
+
+
+Why we need wait methods
+1. To avoid extra time in the script that we are using
+2. If element got appeared in 1 sec then whole remaining time will be considered and wasted
+3. Not good from scalability perspective
+
+
+Type of wait
+1. Hard wait- time.sleep(10)
+2. Implicit wait -
+3. Explicit wait -
+4. Fluent wait -
+
+Proper identification of test case by detailing in test case name
+Use assertion in every test cases
+Explicit wait
+
+
+#     continue_button_find = driver.find_element(by=By.CSS_SELECTOR, value= continue_button).click()
+    #     time.sleep(5)
+    # @pytest.mark.usefixtures("initiate_drvier")
+    # def test_verify_user_should_be_navgate_swiggy_page(self, initiate_driver):
+    #     driver = initiate_driver
+    #     WebDriverWait(driver, 10).until(EC.visibility_of_element_located(By.CSS_SELECTOR, email_field))
+    #     tabs = driver.window_handles
+    #     print(tabs)
+    #     driver.find_element(By.CSS_SELECTOR, email_field).click()
+    #
+    # @pytest.mark
+    #     driver.switch_to.frame()
+    #     driver.switch_to.alert.dismiss()
+
+
+tag id
+tag#id
+#id
+
+
+tag class
+
+.class
+
+tag.class
+
+tag attribute
+
+tag[attribute_name = value]
+
+hier-richal
+
+parent_css selector > child css selector
+
+parent_Tag[parent_attribute = value] > child_tag[child_Attribute = value]

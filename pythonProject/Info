@@ -1,0 +1,32 @@
+(executable_path="C://Users//HP//Downloads//chromedriver_win32")
+
+
+Types of selector strategies
+1. By ID
+2. By CSS Selector
+3. By Xpath (Relative)
+4. By Xpath (Absolute)
+
+Testcase requirements
+1. Setup
+2. Execution steps
+3. Tear down
+
+Problem:
+1. Reports
+2. Code repeatability - Solved
+3. Execution time - Solved
+4. Maintenance - Solved
+5. Cost - Solved
+6. Logs
+7. Designing: POM Model
+
+
+PYTEST:
+1. Fixtures: Python function which takes care of Setup and Teardown part
+2. Parametrization:
+3. Conftest.py
+
+POM: Page Object Model
+
+def perform_login(username, password):
